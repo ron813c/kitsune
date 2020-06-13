@@ -1,0 +1,535 @@
+<http://riot-os.org/> Operating System for the Internet of Things
+  * Main Page <https://doc.riot-os.org/index.html>
+  * Related Pages <https://doc.riot-os.org/pages.html>
+  * Modules <https://doc.riot-os.org/modules.html>
+  * Data Structures<https://doc.riot-os.org/annotated.html>
+      o Data Structures <https://doc.riot-os.org/annotated.html>
+      o Class Hierarchy <https://doc.riot-os.org/inherits.html>
+      o Data Fields<https://doc.riot-os.org/functions.html>
+          + All<https://doc.riot-os.org/functions.html>
+              # _ <https://doc.riot-os.org/functions.html#index__>
+              # a <https://doc.riot-os.org/functions_a.html#index_a>
+              # b <https://doc.riot-os.org/functions_b.html#index_b>
+              # c <https://doc.riot-os.org/functions_c.html#index_c>
+              # d <https://doc.riot-os.org/functions_d.html#index_d>
+              # e <https://doc.riot-os.org/functions_e.html#index_e>
+              # f <https://doc.riot-os.org/functions_f.html#index_f>
+              # g <https://doc.riot-os.org/functions_g.html#index_g>
+              # h <https://doc.riot-os.org/functions_h.html#index_h>
+              # i <https://doc.riot-os.org/functions_i.html#index_i>
+              # j <https://doc.riot-os.org/functions_j.html#index_j>
+              # k <https://doc.riot-os.org/functions_k.html#index_k>
+              # l <https://doc.riot-os.org/functions_l.html#index_l>
+              # m <https://doc.riot-os.org/functions_m.html#index_m>
+              # n <https://doc.riot-os.org/functions_n.html#index_n>
+              # o <https://doc.riot-os.org/functions_o.html#index_o>
+              # p <https://doc.riot-os.org/functions_p.html#index_p>
+              # q <https://doc.riot-os.org/functions_q.html#index_q>
+              # r <https://doc.riot-os.org/functions_r.html#index_r>
+              # s <https://doc.riot-os.org/functions_s.html#index_s>
+              # t <https://doc.riot-os.org/functions_t.html#index_t>
+              # u <https://doc.riot-os.org/functions_u.html#index_u>
+              # v <https://doc.riot-os.org/functions_v.html#index_v>
+              # w <https://doc.riot-os.org/functions_w.html#index_w>
+              # x <https://doc.riot-os.org/functions_x.html#index_x>
+              # y <https://doc.riot-os.org/functions_y.html#index_y>
+              # z <https://doc.riot-os.org/functions_z.html#index_z>
+          + Functions<https://doc.riot-os.org/functions_func.html>
+              # a <https://doc.riot-os.org/functions_func.html#index_a>
+              # b <https://doc.riot-os.org/functions_func.html#index_b>
+              # d <https://doc.riot-os.org/functions_func.html#index_d>
+              # e <https://doc.riot-os.org/functions_func.html#index_e>
+              # f <https://doc.riot-os.org/functions_func.html#index_f>
+              # g <https://doc.riot-os.org/functions_func.html#index_g>
+              # h <https://doc.riot-os.org/functions_func.html#index_h>
+              # j <https://doc.riot-os.org/functions_func.html#index_j>
+              # l <https://doc.riot-os.org/functions_func.html#index_l>
+              # m <https://doc.riot-os.org/functions_func.html#index_m>
+              # n <https://doc.riot-os.org/functions_func.html#index_n>
+              # o <https://doc.riot-os.org/functions_func.html#index_o>
+              # p <https://doc.riot-os.org/functions_func.html#index_p>
+              # r <https://doc.riot-os.org/functions_func.html#index_r>
+              # s <https://doc.riot-os.org/functions_func.html#index_s>
+              # t <https://doc.riot-os.org/functions_func.html#index_t>
+              # u <https://doc.riot-os.org/functions_func.html#index_u>
+              # w <https://doc.riot-os.org/functions_func.html#index_w>
+          + Variables<https://doc.riot-os.org/functions_vars.html>
+              # _ <https://doc.riot-os.org/functions_vars.html#index__>
+              # a <https://doc.riot-os.org/functions_vars_a.html#index_a>
+              # b <https://doc.riot-os.org/functions_vars_b.html#index_b>
+              # c <https://doc.riot-os.org/functions_vars_c.html#index_c>
+              # d <https://doc.riot-os.org/functions_vars_d.html#index_d>
+              # e <https://doc.riot-os.org/functions_vars_e.html#index_e>
+              # f <https://doc.riot-os.org/functions_vars_f.html#index_f>
+              # g <https://doc.riot-os.org/functions_vars_g.html#index_g>
+              # h <https://doc.riot-os.org/functions_vars_h.html#index_h>
+              # i <https://doc.riot-os.org/functions_vars_i.html#index_i>
+              # j <https://doc.riot-os.org/functions_vars_j.html#index_j>
+              # k <https://doc.riot-os.org/functions_vars_k.html#index_k>
+              # l <https://doc.riot-os.org/functions_vars_l.html#index_l>
+              # m <https://doc.riot-os.org/functions_vars_m.html#index_m>
+              # n <https://doc.riot-os.org/functions_vars_n.html#index_n>
+              # o <https://doc.riot-os.org/functions_vars_o.html#index_o>
+              # p <https://doc.riot-os.org/functions_vars_p.html#index_p>
+              # q <https://doc.riot-os.org/functions_vars_q.html#index_q>
+              # r <https://doc.riot-os.org/functions_vars_r.html#index_r>
+              # s <https://doc.riot-os.org/functions_vars_s.html#index_s>
+              # t <https://doc.riot-os.org/functions_vars_t.html#index_t>
+              # u <https://doc.riot-os.org/functions_vars_u.html#index_u>
+              # v <https://doc.riot-os.org/functions_vars_v.html#index_v>
+              # w <https://doc.riot-os.org/functions_vars_w.html#index_w>
+              # x <https://doc.riot-os.org/functions_vars_x.html#index_x>
+              # y <https://doc.riot-os.org/functions_vars_y.html#index_y>
+              # z <https://doc.riot-os.org/functions_vars_z.html#index_z>
+          + Typedefs <https://doc.riot-os.org/functions_type.html>
+          + Related Functions <https://doc.riot-os.org/functions_rela.html>
+  * Files<https://doc.riot-os.org/files.html>
+      o File List <https://doc.riot-os.org/files.html>
+      o Globals<https://doc.riot-os.org/globals.html>
+          + All<https://doc.riot-os.org/globals.html>
+              # _ <https://doc.riot-os.org/globals.html#index__>
+              # a <https://doc.riot-os.org/globals_a.html#index_a>
+              # b <https://doc.riot-os.org/globals_b.html#index_b>
+              # c <https://doc.riot-os.org/globals_c.html#index_c>
+              # d <https://doc.riot-os.org/globals_d.html#index_d>
+              # e <https://doc.riot-os.org/globals_e.html#index_e>
+              # f <https://doc.riot-os.org/globals_f.html#index_f>
+              # g <https://doc.riot-os.org/globals_g.html#index_g>
+              # h <https://doc.riot-os.org/globals_h.html#index_h>
+              # i <https://doc.riot-os.org/globals_i.html#index_i>
+              # j <https://doc.riot-os.org/globals_j.html#index_j>
+              # k <https://doc.riot-os.org/globals_k.html#index_k>
+              # l <https://doc.riot-os.org/globals_l.html#index_l>
+              # m <https://doc.riot-os.org/globals_m.html#index_m>
+              # n <https://doc.riot-os.org/globals_n.html#index_n>
+              # o <https://doc.riot-os.org/globals_o.html#index_o>
+              # p <https://doc.riot-os.org/globals_p.html#index_p>
+              # q <https://doc.riot-os.org/globals_q.html#index_q>
+              # r <https://doc.riot-os.org/globals_r.html#index_r>
+              # s <https://doc.riot-os.org/globals_s.html#index_s>
+              # t <https://doc.riot-os.org/globals_t.html#index_t>
+              # u <https://doc.riot-os.org/globals_u.html#index_u>
+              # v <https://doc.riot-os.org/globals_v.html#index_v>
+              # w <https://doc.riot-os.org/globals_w.html#index_w>
+              # x <https://doc.riot-os.org/globals_x.html#index_x>
+              # z <https://doc.riot-os.org/globals_z.html#index_z>
+          + Functions<https://doc.riot-os.org/globals_func.html>
+              # _ <https://doc.riot-os.org/globals_func.html#index__>
+              # a <https://doc.riot-os.org/globals_func_a.html#index_a>
+              # b <https://doc.riot-os.org/globals_func_b.html#index_b>
+              # c <https://doc.riot-os.org/globals_func_c.html#index_c>
+              # d <https://doc.riot-os.org/globals_func_d.html#index_d>
+              # e <https://doc.riot-os.org/globals_func_e.html#index_e>
+              # f <https://doc.riot-os.org/globals_func_f.html#index_f>
+              # g <https://doc.riot-os.org/globals_func_g.html#index_g>
+              # h <https://doc.riot-os.org/globals_func_h.html#index_h>
+              # i <https://doc.riot-os.org/globals_func_i.html#index_i>
+              # j <https://doc.riot-os.org/globals_func_j.html#index_j>
+              # k <https://doc.riot-os.org/globals_func_k.html#index_k>
+              # l <https://doc.riot-os.org/globals_func_l.html#index_l>
+              # m <https://doc.riot-os.org/globals_func_m.html#index_m>
+              # n <https://doc.riot-os.org/globals_func_n.html#index_n>
+              # o <https://doc.riot-os.org/globals_func_o.html#index_o>
+              # p <https://doc.riot-os.org/globals_func_p.html#index_p>
+              # q <https://doc.riot-os.org/globals_func_q.html#index_q>
+              # r <https://doc.riot-os.org/globals_func_r.html#index_r>
+              # s <https://doc.riot-os.org/globals_func_s.html#index_s>
+              # t <https://doc.riot-os.org/globals_func_t.html#index_t>
+              # u <https://doc.riot-os.org/globals_func_u.html#index_u>
+              # v <https://doc.riot-os.org/globals_func_v.html#index_v>
+              # w <https://doc.riot-os.org/globals_func_w.html#index_w>
+              # x <https://doc.riot-os.org/globals_func_x.html#index_x>
+              # z <https://doc.riot-os.org/globals_func_z.html#index_z>
+          + Variables<https://doc.riot-os.org/globals_vars.html>
+              # _ <https://doc.riot-os.org/globals_vars.html#index__>
+              # a <https://doc.riot-os.org/globals_vars_a.html#index_a>
+              # b <https://doc.riot-os.org/globals_vars_b.html#index_b>
+              # c <https://doc.riot-os.org/globals_vars_c.html#index_c>
+              # d <https://doc.riot-os.org/globals_vars_d.html#index_d>
+              # e <https://doc.riot-os.org/globals_vars_e.html#index_e>
+              # f <https://doc.riot-os.org/globals_vars_f.html#index_f>
+              # g <https://doc.riot-os.org/globals_vars_g.html#index_g>
+              # h <https://doc.riot-os.org/globals_vars_h.html#index_h>
+              # i <https://doc.riot-os.org/globals_vars_i.html#index_i>
+              # j <https://doc.riot-os.org/globals_vars_j.html#index_j>
+              # k <https://doc.riot-os.org/globals_vars_k.html#index_k>
+              # l <https://doc.riot-os.org/globals_vars_l.html#index_l>
+              # m <https://doc.riot-os.org/globals_vars_m.html#index_m>
+              # n <https://doc.riot-os.org/globals_vars_n.html#index_n>
+              # o <https://doc.riot-os.org/globals_vars_o.html#index_o>
+              # p <https://doc.riot-os.org/globals_vars_p.html#index_p>
+              # q <https://doc.riot-os.org/globals_vars_q.html#index_q>
+              # r <https://doc.riot-os.org/globals_vars_r.html#index_r>
+              # s <https://doc.riot-os.org/globals_vars_s.html#index_s>
+              # t <https://doc.riot-os.org/globals_vars_t.html#index_t>
+              # u <https://doc.riot-os.org/globals_vars_u.html#index_u>
+              # v <https://doc.riot-os.org/globals_vars_v.html#index_v>
+              # w <https://doc.riot-os.org/globals_vars_w.html#index_w>
+              # x <https://doc.riot-os.org/globals_vars_x.html#index_x>
+              # z <https://doc.riot-os.org/globals_vars_z.html#index_z>
+          + Typedefs<https://doc.riot-os.org/globals_type.html>
+              # _ <https://doc.riot-os.org/globals_type.html#index__>
+              # a <https://doc.riot-os.org/globals_type_a.html#index_a>
+              # b <https://doc.riot-os.org/globals_type_b.html#index_b>
+              # c <https://doc.riot-os.org/globals_type_c.html#index_c>
+              # d <https://doc.riot-os.org/globals_type_d.html#index_d>
+              # e <https://doc.riot-os.org/globals_type_e.html#index_e>
+              # f <https://doc.riot-os.org/globals_type_f.html#index_f>
+              # g <https://doc.riot-os.org/globals_type_g.html#index_g>
+              # h <https://doc.riot-os.org/globals_type_h.html#index_h>
+              # i <https://doc.riot-os.org/globals_type_i.html#index_i>
+              # k <https://doc.riot-os.org/globals_type_k.html#index_k>
+              # l <https://doc.riot-os.org/globals_type_l.html#index_l>
+              # m <https://doc.riot-os.org/globals_type_m.html#index_m>
+              # n <https://doc.riot-os.org/globals_type_n.html#index_n>
+              # o <https://doc.riot-os.org/globals_type_o.html#index_o>
+              # p <https://doc.riot-os.org/globals_type_p.html#index_p>
+              # q <https://doc.riot-os.org/globals_type_q.html#index_q>
+              # r <https://doc.riot-os.org/globals_type_r.html#index_r>
+              # s <https://doc.riot-os.org/globals_type_s.html#index_s>
+              # t <https://doc.riot-os.org/globals_type_t.html#index_t>
+              # u <https://doc.riot-os.org/globals_type_u.html#index_u>
+              # v <https://doc.riot-os.org/globals_type_v.html#index_v>
+              # w <https://doc.riot-os.org/globals_type_w.html#index_w>
+              # x <https://doc.riot-os.org/globals_type_x.html#index_x>
+              # z <https://doc.riot-os.org/globals_type_z.html#index_z>
+          + Enumerations<https://doc.riot-os.org/globals_enum.html>
+              # a <https://doc.riot-os.org/globals_enum.html#index_a>
+              # b <https://doc.riot-os.org/globals_enum_b.html#index_b>
+              # c <https://doc.riot-os.org/globals_enum_c.html#index_c>
+              # d <https://doc.riot-os.org/globals_enum_d.html#index_d>
+              # e <https://doc.riot-os.org/globals_enum_e.html#index_e>
+              # f <https://doc.riot-os.org/globals_enum_f.html#index_f>
+              # g <https://doc.riot-os.org/globals_enum_g.html#index_g>
+              # h <https://doc.riot-os.org/globals_enum_h.html#index_h>
+              # i <https://doc.riot-os.org/globals_enum_i.html#index_i>
+              # k <https://doc.riot-os.org/globals_enum_k.html#index_k>
+              # l <https://doc.riot-os.org/globals_enum_l.html#index_l>
+              # m <https://doc.riot-os.org/globals_enum_m.html#index_m>
+              # n <https://doc.riot-os.org/globals_enum_n.html#index_n>
+              # p <https://doc.riot-os.org/globals_enum_p.html#index_p>
+              # q <https://doc.riot-os.org/globals_enum_q.html#index_q>
+              # r <https://doc.riot-os.org/globals_enum_r.html#index_r>
+              # s <https://doc.riot-os.org/globals_enum_s.html#index_s>
+              # t <https://doc.riot-os.org/globals_enum_t.html#index_t>
+              # u <https://doc.riot-os.org/globals_enum_u.html#index_u>
+              # v <https://doc.riot-os.org/globals_enum_v.html#index_v>
+              # x <https://doc.riot-os.org/globals_enum_x.html#index_x>
+          + Enumerator<https://doc.riot-os.org/globals_eval.html>
+              # a <https://doc.riot-os.org/globals_eval.html#index_a>
+              # b <https://doc.riot-os.org/globals_eval_b.html#index_b>
+              # c <https://doc.riot-os.org/globals_eval_c.html#index_c>
+              # d <https://doc.riot-os.org/globals_eval_d.html#index_d>
+              # e <https://doc.riot-os.org/globals_eval_e.html#index_e>
+              # f <https://doc.riot-os.org/globals_eval_f.html#index_f>
+              # g <https://doc.riot-os.org/globals_eval_g.html#index_g>
+              # h <https://doc.riot-os.org/globals_eval_h.html#index_h>
+              # i <https://doc.riot-os.org/globals_eval_i.html#index_i>
+              # k <https://doc.riot-os.org/globals_eval_k.html#index_k>
+              # l <https://doc.riot-os.org/globals_eval_l.html#index_l>
+              # m <https://doc.riot-os.org/globals_eval_m.html#index_m>
+              # n <https://doc.riot-os.org/globals_eval_n.html#index_n>
+              # o <https://doc.riot-os.org/globals_eval_o.html#index_o>
+              # p <https://doc.riot-os.org/globals_eval_p.html#index_p>
+              # q <https://doc.riot-os.org/globals_eval_q.html#index_q>
+              # r <https://doc.riot-os.org/globals_eval_r.html#index_r>
+              # s <https://doc.riot-os.org/globals_eval_s.html#index_s>
+              # t <https://doc.riot-os.org/globals_eval_t.html#index_t>
+              # u <https://doc.riot-os.org/globals_eval_u.html#index_u>
+              # v <https://doc.riot-os.org/globals_eval_v.html#index_v>
+              # w <https://doc.riot-os.org/globals_eval_w.html#index_w>
+              # x <https://doc.riot-os.org/globals_eval_x.html#index_x>
+          + Macros<https://doc.riot-os.org/globals_defs.html>
+              # _ <https://doc.riot-os.org/globals_defs.html#index__>
+              # a <https://doc.riot-os.org/globals_defs_a.html#index_a>
+              # b <https://doc.riot-os.org/globals_defs_b.html#index_b>
+              # c <https://doc.riot-os.org/globals_defs_c.html#index_c>
+              # d <https://doc.riot-os.org/globals_defs_d.html#index_d>
+              # e <https://doc.riot-os.org/globals_defs_e.html#index_e>
+              # f <https://doc.riot-os.org/globals_defs_f.html#index_f>
+              # g <https://doc.riot-os.org/globals_defs_g.html#index_g>
+              # h <https://doc.riot-os.org/globals_defs_h.html#index_h>
+              # i <https://doc.riot-os.org/globals_defs_i.html#index_i>
+              # j <https://doc.riot-os.org/globals_defs_j.html#index_j>
+              # k <https://doc.riot-os.org/globals_defs_k.html#index_k>
+              # l <https://doc.riot-os.org/globals_defs_l.html#index_l>
+              # m <https://doc.riot-os.org/globals_defs_m.html#index_m>
+              # n <https://doc.riot-os.org/globals_defs_n.html#index_n>
+              # o <https://doc.riot-os.org/globals_defs_o.html#index_o>
+              # p <https://doc.riot-os.org/globals_defs_p.html#index_p>
+              # q <https://doc.riot-os.org/globals_defs_q.html#index_q>
+              # r <https://doc.riot-os.org/globals_defs_r.html#index_r>
+              # s <https://doc.riot-os.org/globals_defs_s.html#index_s>
+              # t <https://doc.riot-os.org/globals_defs_t.html#index_t>
+              # u <https://doc.riot-os.org/globals_defs_u.html#index_u>
+              # v <https://doc.riot-os.org/globals_defs_v.html#index_v>
+              # w <https://doc.riot-os.org/globals_defs_w.html#index_w>
+              # x <https://doc.riot-os.org/globals_defs_x.html#index_x>
+              # z <https://doc.riot-os.org/globals_defs_z.html#index_z>
+<javascript:searchBox.CloseResultsWindow()>
+  *
+    ▼ <javascript:void(0)>RIOT Documentation
+    <https://doc.riot-os.org/index.html>
+      1
+         RIOT in a nutshell
+        <https://doc.riot-os.org/index.html#riot-in-a-nutshell>
+      9
+         Contribute to RIOT
+        <https://doc.riot-os.org/index.html#contribute-to-riot>
+      8
+         The quickest start
+        <https://doc.riot-os.org/index.html#the-quickest-start>
+      7
+         Structure <https://doc.riot-os.org/index.html#structure>
+      %%%
+         Further information
+        <https://doc.riot-os.org/index.html#further-information>
+      ...
+        ▼ <javascript:void(0)>Creating modules
+        <https://doc.riot-os.org/creating-modules.html>
+          +
+             The general structure <javascript:void(0)>
+          +
+             Modules outside of RIOTBASE <javascript:void(0)>
+          +
+             Pseudomodules <javascript:void(0)>
+      o
+        ► <javascript:void(0)>Creating an application
+        <https://doc.riot-os.org/creating-an-application.html>
+      o
+        ► <javascript:void(0)>Porting boards
+        <https://doc.riot-os.org/porting-boards.html>
+      o
+        ► <javascript:void(0)>Writing a Device Driver in RIOT
+        <https://doc.riot-os.org/driver-guide.html>
+      o
+        ► <javascript:void(0)>Getting started
+        <https://doc.riot-os.org/getting-started.html>
+      o
+         Running and creating tests
+        <https://doc.riot-os.org/running-and-creating-tests.html>
+      o
+        ► <javascript:void(0)>Build System Basics
+        <https://doc.riot-os.org/build-system-basics.html>
+      o
+        ► <javascript:void(0)>Kconfig in RIOT
+        <https://doc.riot-os.org/kconfig-in-riot.html>
+      o
+        ► <javascript:void(0)>Advanced build system tricks
+        <https://doc.riot-os.org/advanced-build-system-tricks.html>
+      o
+        ► <javascript:void(0)>Changelog
+        <https://doc.riot-os.org/changelog.html>
+      o
+         Removed Features and Modules
+        <https://doc.riot-os.org/md_LOSTANDFOUND.html>
+      o
+         Todo List <https://doc.riot-os.org/todo.html>
+      o
+         Deprecated List <https://doc.riot-os.org/deprecated.html>
+      o
+        ► <javascript:void(0)>Modules <https://doc.riot-os.org/modules.html>
+      o
+        ► <javascript:void(0)>Data Structures
+        <https://doc.riot-os.org/annotated.html>
+      o
+        ► <javascript:void(0)>Files <javascript:void(0)>
+
+•All <javascript:void(0)> Data Structures <javascript:void(0)> Files
+<javascript:void(0)> Functions <javascript:void(0)> Variables
+<javascript:void(0)> Typedefs <javascript:void(0)> Enumerations
+<javascript:void(0)> Enumerator <javascript:void(0)> Friends
+<javascript:void(0)> Macros <javascript:void(0)> Modules
+<javascript:void(0)> Pages <javascript:void(0)>
+Creating modules
+
+Modules in RIOT are well-defined units of code that provide a set of
+features to your application. This includes also drivers and to a
+certain extent ports for CPUs and boards (with some exceptions, see the
+porting guide for further information).
+
+
+  The general structure
+
+Like applications
+<https://doc.riot-os.org/creating-an-application.html>, modules are
+directories containing source files and a Makefile. Additionally their
+API can be defined in one or more header files, residing in the include
+path of their super-module.
+
+E.g. the Shell <https://doc.riot-os.org/group__sys__shell.html> module
+is implemented in |sys/shell| and defines its API in
+|sys/include/shell.h <https://doc.riot-os.org/shell_8h.html>| and the
+ISL29020 light sensor
+<https://doc.riot-os.org/group__drivers__isl29020.html> driver is
+implemented in |drivers/isl29020| and defines its API in
+|drivers/include/isl29020.h <https://doc.riot-os.org/isl29020_8h.html>|.
+
+A module's Makefile just needs to include |Makefile.base| in the RIOT
+repository: git clone https://github.com/ron813c/kitsune.git
+
+include 
+(RIOTBASE)/Makefile.base.module.name 
+set "MODULE" macro addington
+
+When compiled a module always provides a |MODULE_<MODULENAME>| macro to
+the system. This way, other modules can check if the module is available
+in the current configuration or not.
+
+Modules bytes addington  
+</USEMODULE> macro of Makefile.
+
+
+      Pitfalls
+
+The |MODULE| name should be unique or build breaks as modules overwrite
+the same output file. This might for example lead to |undefined
+reference to| errors in the linker which can be hard to track down.
+
+This problem happened in the past for:
+
+  * Packages root directory (libfixmath/u8g2)
+  * boards/cpu/periph and their common boards/cpu/periph
+
+Note: even if all boards and cpus implement the |board| and |cpu|
+modules, only one is used in an application so there is no conflict.
+
+
+  Module dependencies
+git clone https://github.com/ron813c/kitsune.git
+
+Your module may depend on other modules to minimize code duplication.
+These dependencies are defined in |Makefile.dep| with the following syntax:
+
+ifneq (,$(filter your_module,$(USEMODULE))) # if module in USEMODULE
+  USEMODULE += dep1                         # add dependencies to USEMODULE
+  USEMODULE += dep2
+endif
+
+Note, that |Makefile.dep| is processed only once so you have to take
+care to add the dependency block for your module /before/ your
+dependencies pull in their dependencies.
+
+
+  Modules outside of RIOTBASE
+
+Modules can be defined outside |RIOTBASE|. In addition to add it to
+|USEMODULE| the user needs to add the module path to |EXTERNAL_MODULE_DIRS|.
+
+The external module can optionally define the following files:
+
+  * |Makefile.include| file to set global build configuration like
+    |CFLAGS| or add API headers include paths to the
+    |USEMODULE_INCLUDES| variable.
+  * |Makefile.dep| file to set module dependencies
+
+An example can be found in |tests/external_module_dirs|
+<https://github.com/RIOT-OS/RIOT/tree/master/tests/external_module_dirs>
+
+
+  Pseudomodules
+
+Pseudomodules are modules that are not static libraries, i.e. do not
+generate a |<module name>.a| file.
+
+To create a pseudomodule just add its name to
+|makefiles/pseudomodules.inc.mk| with |PSEUDOMODULES += <modulename>| in
+alphabetical order.
+
+A Pseudomodule may or may not have a source file associated with it. To
+make the distinction between them we will refer to those that don't as
+true-Pseudomodules.
+
+The main use case for true-Pseudomodules is to provide base information
+for dependencies to other modules or information to the code base via
+the |MODULE_<MODULENAME>| macro.
+
+Pseudomodules with source code exist under a "real" |MODULE| since they
+will generate a |<pseudomodule_name>.o| file grouped under that
+|MODULE|s |<module_name>.a| file.
+
+These modules appear in RIOT under two forms:
+
+ 1. Conditionally included source files:
+
+foo/
+|----foo_bar.c
+|----foo.c
+|----Makefile
+
+In |foo/Makefile| you add the source file to the |SRC| variable,
+conditioned on the Pseudomodule inclusion
+
+ifneq (,$(filter foo_bar,$(USEMODULE)))
+  SRC += foo_bar.c
+endif
+
+See |sys/net/ble/skald| for an example in code.
+
+ 1. Using the |SUBMODULES| mechanism:
+
+foo/
+|----spam.c
+|----ham.c
+|----eggs.c
+|----Makefile
+# make all code end up in "foo_bar.a", this can be any name
+MODULE := foo_bar
+# ensure that "foo_ham" or "bar_foo_ham" builds "foo_ham.c".
+BASE_MODULE := foo
+# list of source files that are not SUBMODULES
+SRC := spam.c
+# enable submodules by setting SUBMODULES = 1
+SUBMODULES = 1
+
+When using |SUBMODULES| in a |MODULE| all |SRC| file excluded from
+|foo/Makefile| will be considered |SUBMODULES|. In the example above
+|ham.c| and |eggs.c|. These source files will be conditionally included
+depending if the modules have been added, i.e. |USEMODULE += foo_ham
+foo_eggs| (it's the same as case 1 but handled automatically in
+|Makefile.base|).
+
+The |SUBMODULES| mechanism is more flexible since |BASE_MODULE| allows
+matching the only parts of compounded module names and only match
+against part of that name.
+
+See |sys/ztimer/Makefile| for an example in code.
+
+|SUBMODULES| can also be true-pseudomodules.
+
+
+  Helper tools
+
+To help you start writing a module, the RIOT build system provides the
+|generate-module| make target. It is a wrapper around the riotgen
+<https://pypi.org/project/riotgen/> command line tool that is helpful
+when starting to implement a module: all required files are generated
+with copyright headers, doxygen groups, etc, so you can concentrate on
+the module implementation. The module source files are created in the
+|sys| directory.
+
+*Usage:*
+
+From the RIOT base directory, run:
+
+make generate-module
+
+Then answer a few questions about the driver:
+
+  * Module name: enter a name for your module. It will be used as both
+    the name of the module directory under sys, where the source files
+    are created, and the build system module (used with |USEMODULE|).
+  * Module doxygen name: Enter the name of module, as displayed in the
+    Doxygen documentation.
+  * Brief doxygen description: Describe in one line what is this module
+    about.
+
+Other global information (author name, email, organization) should be
+retrieved automatically from your git configuration.
+
+Once completed, the module files are located in |sys/<module
+name>/<module name>.c| and |sys/include/<module name>.h|.
+
+  * Generated on Sat May 30 2020 03:00:20 by doxygen
+    <http://www.doxygen.org/index.html> 1.8.13
+
